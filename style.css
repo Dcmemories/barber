@@ -15,6 +15,7 @@ html {
 
 
 .bgcover {
+    background-position: center center;
       background-image: url(img/IMG-0946.jpg);
       background-size: cover;
     width: 100%;
