@@ -1,0 +1,57 @@
+body{
+  font-family: 'Raleway', sans-serif;
+}
+nav ul a,
+nav .brand-logo {
+  color: black;
+}
+
+nav .brand-logo{
+  font-family: 'Satisfy', cursive;
+  }
+ nav .nav-wrapper {
+  padding: 0 50px;
+}
+
+p {
+  line-height: 2rem;
+}
+nav .sidenav-trigger {
+    float: left;
+    position: relative;
+    z-index: 1;
+    height: 56px;
+    margin: 0 18px;
+  color: green;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+
+  }
+
+
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+  nav .nav-wrapper {
+    padding: 0 10px;
+  }
+   .header-subtitle {
+    margin-top: 150%;
+    margin-bottom: 10%;
+    font-size: 1.3em;
+  }
+  
+
+
+ 
+}

@@ -1,0 +1,338 @@
+html {
+    height: 100%;
+
+}
+
+body {
+    background-image: url(img/IMG-0946_preview_rev_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+
+
+}
+
+#container {
+    background-color: rgba(80, 80, 80, 0.6);
+    margin-left: auto;
+    margin-right: auto;
+    /*abbiamo ridimensionato il nostro sito web solo che con 240px andando a stringere lo schermo scompareil nostro sito quindi invece di 240px inseriamoauto cosi si adatta ad ogni schermo*/
+    max-width: 800px;
+    /* una dimensione massima perchè non voglio che prende tutta la pagina*/
+    border-radius: 100px;
+
+}
+
+header {
+    height: 188px;
+    background-image: url(img/cazzo.png);
+    /*ho modificato la foto da paint inserendo 200px*/
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+nav {
+
+    background-color: rgba(140, 125, 78, 0.6);
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px 0px;
+
+
+}
+
+
+.menu {
+    font-family: 'Share', cursive;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 0px 10px;
+    /*sopr e sotto 0 destra e sinistra 10*/
+}
+
+.menu:hover {
+
+    color: brown;
+    background-color: whitesmoke;
+    transition: 4s;
+    /*ritardo */
+    border-radius: 10px;
+
+}
+
+main {
+
+    height: 600px;
+    text-align: center;
+    position: relative;
+    /* per modificare la posizione seno è storto*/
+
+
+}
+
+h1 {
+    font-family: 'Cabin', sans-serif;
+    font-size: 60px;
+    color: tan;
+
+
+}
+
+h2 {
+    font-family: 'Share', cursive;
+    font-size: 30px;
+    color: #84754E;
+    margin-bottom: 30px;
+
+}
+
+p {
+    font-family: 'Cabin', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: whitesmoke;
+    margin-bottom: 40px;
+    text-align: left;
+
+
+}
+@media only screen and (max-width: 600px){
+    
+    body{
+        
+    background-attachment: scroll;
+            }
+
+    
+}
+
+
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px){
+    
+    body{
+         
+    }
+
+    
+    
+ 
+ }
+
+
+
+
+@media screen and (max-width: 320px){
+     body{
+         width: 335px;
+    }
+    
+}
+
+@media screen and (max-width: 420px) {
+    /*con media questa proprietà diciamo che se si trova una larghezza piccola di 420px alla classe map gli diamo quel margine , perchè il mio background non va sotto non e attaccato quindi bisogna attaccare il background allo scorrere della pagina  */
+
+  
+
+    .map {
+        margin-top: 280px;
+}
+    
+    
+    body{
+         background-position: center;
+        
+    }
+}
+
+
+
+
+#prenota {
+
+
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+    color: black;
+    padding: 10px;
+    border: 2px solid white;
+    background-color: goldenrod;
+    text-decoration: none;
+    border-radius: 10px;
+
+
+}
+
+#prenota:hover {
+    font-family: 'Knewave', cursive;
+    color: whitesmoke;
+    border: 2px solid green;
+    background-color: brown;
+
+
+}
+
+
+
+
+
+
+.text-divider-double {
+    position: relative;
+    margin: 60px 0 25px 0;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 2em;
+    color: antiquewhite;
+}
+
+
+
+
+
+table.vamtam-styled td {
+    width: 100%;
+    padding: 1px 25px 11px 25px;
+    vertical-align: middle;
+    border-color: 0;
+    border-bottom: solid 1px gold;
+}
+
+
+.titoli {
+    color: antiquewhite;
+    font-size: 1rem;
+    
+}
+
+
+#prezzi {
+
+
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+    color: black;
+    padding: 10px;
+    border: 1px solid white;
+    background-color: darkgoldenrod;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+#prezzi:hover {
+    font-family: 'Knewave', cursive;
+    color: whitesmoke;
+    border: 1px solid blue ;
+    background-color: gray;
+
+
+}
+
+
+.team {
+
+    margin-top: 50px;
+    background-color: rgba(140, 125, 78, 0.6);
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    text-align: center;
+    
+
+
+}
+
+.team1 {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+ 
+.team2{
+    background-color: rgba(140, 125, 78, 0.6);
+    padding: 5px 10px 0px 10px;
+    border: 5px solid black;
+    border-radius: 20px;
+    min-height: 210px;
+    width: 220px;
+}
+
+
+
+
+
+
+footer {
+    margin-top: 50px;
+    background-color: rgba(140, 125, 78, 0.6);
+    height: 100px;
+    text-align: center;
+    color: goldenrod;
+    font-weight: bold;
+    font-family: 'Cabin', sans-serif;
+}
+
+.social-icon {
+    font-size: 1.5em;
+    color: #fff;
+    padding: 0 20px;
+}
+
+.social-icon:hover {
+
+    color: green;
+
+}
+
+.wa {
+    padding: 0px 10px;
+    height: 25px;
+    width: 27px;
+}
+
+
+
+
+
+
+.bigbox {
+    margin-top: 100px;
+}
+
+
+.box-1 {
+
+
+
+    margin-left: 50px;
+
+
+
+}
+
+.box-2 {
+
+    width: 400px;
+    height: 400px;
+    border: solid 20px black;
+    margin-left: 200px;
+
+
+
+
+}
