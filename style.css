@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    background-image: url(img/IMG-0946_preview_rev_1.png);
+    background-image: url(img/IMG-0946.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -107,9 +107,11 @@ p {
 
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px){
-    background-attachment: initial;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-attachment: scroll;
  }
-
 
 
 
