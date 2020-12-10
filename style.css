@@ -248,6 +248,7 @@ table.vamtam-styled td {
 .team1 {
     display: flex;
     justify-content: center;
+    align-items: flex-start;
     
     
 }
