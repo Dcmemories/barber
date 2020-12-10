@@ -1,3 +1,10 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
 html {
     height: 100%;
 
@@ -111,13 +118,6 @@ p {
 
 }
 
-@media screen and (max-width: 518px){
-    main{
-        height: 700px;
-        
-    }
-}
-
 @media screen and (max-width: 751px){
     main{
         height: 650px;
@@ -125,13 +125,13 @@ p {
 }
 
 
-
-@media screen and (max-width: 320px){
-     body{
-         width: 335px;
+@media screen and (max-width: 518px){
+    main{
+        height: 700px;
+        
     }
-    
 }
+
 
 @media screen and (max-width: 420px) {
     /*con media questa proprietà diciamo che se si trova una larghezza piccola di 420px alla classe map gli diamo quel margine , perchè il mio background non va sotto non e attaccato quindi bisogna attaccare il background allo scorrere della pagina  */
@@ -149,6 +149,15 @@ p {
     }
 }
 
+
+
+
+@media screen and (max-width: 320px){
+     body{
+         width: 335px;
+    }
+    
+}
 
 
 

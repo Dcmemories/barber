@@ -1,57 +1,100 @@
-body{
-  font-family: 'Raleway', sans-serif;
-}
-nav ul a,
-nav .brand-logo {
-  color: black;
-}
-
-nav .brand-logo{
-  font-family: 'Satisfy', cursive;
-  }
- nav .nav-wrapper {
-  padding: 0 50px;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
 }
 
-p {
-  line-height: 2rem;
+.navbar{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    font-weight: bold;
+    padding: 0 30px;
+    background-color: rgb(255,217,0);
+    font-size: 16px;
 }
-nav .sidenav-trigger {
-    float: left;
+
+span{
+    color: goldenrod;
+}
+
+.navbar a{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar ul li{
+    list-style: none;
+    color: #fff;
+}
+.navbar ul li a:hover{
+    background-color:#fff;
+    border-radius: 5px;
+    color: #000;
+    cursor: pointer;
+    
+    
+}
+
+.centro h1{
+    margin-top: -200px;
+    color: #fff;
+    font-size: 40px;
+    z-index: 4;
+}
+
+
+.centro{
     position: relative;
-    z-index: 1;
-    height: 56px;
-    margin: 0 18px;
-  color: green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(img/sinval-carvalho-WbEibGKHBMY-unsplash.jpg) no-repeat center center/cover ;
+    
+}
+.centro::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0.0.0.0.4);
+    
 }
 
-@media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
-  #index-banner .section {
-    top: 10%;
-  }
 
-  }
-
-
-
-@media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
-  nav .nav-wrapper {
-    padding: 0 10px;
-  }
-   .header-subtitle {
-    margin-top: 150%;
-    margin-bottom: 10%;
-    font-size: 1.3em;
-  }
-  
+@media(max-width:330px){
+    .navbar{
+        width: px;
+    }
+    .centro{
+        width: px;
+        
+    }
+}
 
 
- 
+
+
+
+@media(max-width:780px){
+    .navbar{
+        flex-direction: column;
+        height: 140px;
+        padding 20px;
+    }
+    .centro{
+        text-align: center;
+    }
 }
