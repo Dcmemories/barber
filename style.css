@@ -10,7 +10,7 @@ html {
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: -1;
+    z-index: -1; /*con queste due classi sono riuscito a far funzionare il background-attachmente e far vedere la ia foto di sfondo poichè con ios non funzionava adesso invec va*/
 }
 
 
@@ -19,7 +19,7 @@ html {
       background-image: url(img/IMG-0946.jpg);
       background-size: cover;
     width: 100%;
-    height: 100%;
+    height: 100%; /*uguale a FIXED*/
   }
 
 #container {
@@ -111,9 +111,18 @@ p {
 
 }
 
+@media screen and (max-width: 518px){
+    main{
+        height: 700px;
+        
+    }
+}
 
-
-
+@media screen and (max-width: 751px){
+    main{
+        height: 650px;
+    }
+}
 
 
 
@@ -248,7 +257,7 @@ table.vamtam-styled td {
 .team1 {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: flex-start; /*cpn questa funzione sono riuscito a ridimensionare la foto*/
     
     
 }
