@@ -61,7 +61,7 @@ span {
     margin-top: 250px;
     color: peachpuff;
     font-size: 25px;
-    left: 75px;
+    left: 390px;
     z-index: 4;
     
 }
@@ -72,9 +72,11 @@ span {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    
     height: 100vh;
     background: url(img/sinval-carvalho-WbEibGKHBMY-unsplash.jpg) no-repeat center center/cover;
+    
+    align-items: flex-start;
 
 
 }
