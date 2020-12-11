@@ -1,11 +1,22 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+
+}
+
+
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    /*abbiamo ridimensionato il nostro sito web solo che con 240px andando a stringere lo schermo scompareil nostro sito quindi invece di 240px inseriamoauto cosi si adatta ad ogni schermo*/
+    max-width: 800px;
+    /* una dimensione massima perchè non voglio che prende tutta la pagina*/
     
 }
 
-.navbar{
+
+.navbar {
     display: flex;
     width: 100%;
     justify-content: space-around;
@@ -13,56 +24,62 @@
     height: 70px;
     font-weight: bold;
     padding: 0 30px;
-    background-color: rgb(150,217,0);
+    background-color: rgb(150, 217, 0);
     font-size: 16px;
 }
 
-span{
+span {
     color: firebrick;
 }
 
-.navbar a{
+.navbar a {
     text-decoration: none;
     padding: 10px 20px;
     color: #fff;
 }
 
-.navbar ul{
+.navbar ul {
     display: flex;
 }
 
-.navbar ul li{
+.navbar ul li {
     list-style: none;
     color: #fff;
 }
-.navbar ul li a:hover{
-    background-color:#fff;
+
+.navbar ul li a:hover {
+    background-color: #fff;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
-    
-    
+
+
 }
 
-.centro h1{
-    margin-top: -200px;
-    color: #fff;
-    font-size: 40px;
+.centro h1 { 
+    position: relative;
+    margin-top: 250px;
+    color: peachpuff;
+    font-size: 25px;
+    left: 75px;
     z-index: 4;
+    
 }
 
 
-.centro{
+.centro {
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: url(img/sinval-carvalho-WbEibGKHBMY-unsplash.jpg) no-repeat center center/cover ;
-    
+    background: url(img/sinval-carvalho-WbEibGKHBMY-unsplash.jpg) no-repeat center center/cover;
+
+
 }
-.centro::before{
+
+.centro::before {
     content: '';
     position: absolute;
     width: 100%;
@@ -70,17 +87,18 @@ span{
     top: 0;
     left: 0;
     background-color: rgba(0.0.0.0.4);
-    
+
 }
 
 
-@media(max-width:330px){
-    .navbar{
+@media(max-width:330px) {
+    .navbar {
         width: px;
     }
-    .centro{
+
+    .centro {
         width: px;
-        
+
     }
 }
 
@@ -88,13 +106,14 @@ span{
 
 
 
-@media(max-width:780px){
-    .navbar{
+@media(max-width:780px) {
+    .navbar {
         flex-direction: column;
         height: 140px;
         padding 20px;
     }
-    .centro{
+
+    .centro {
         text-align: center;
     }
 }
