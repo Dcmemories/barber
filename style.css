@@ -1,4 +1,4 @@
-* {
+*{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -23,7 +23,7 @@ html {
 
 .bgcover {
     background-position: center center;
-      background-image: url(img/IMG-0946.jpg);
+      background-image: url(./img/IMG-0946.jpg);
       background-size: cover;
     width: 100%;
     height: 100%; /*uguale a FIXED*/
@@ -95,6 +95,7 @@ h1 {
     font-family: 'Cabin', sans-serif;
     font-size: 60px;
     color: tan;
+    margin-top: 50px;
 
 
 }
@@ -104,6 +105,7 @@ h2 {
     font-size: 30px;
     color: #84754E;
     margin-bottom: 30px;
+    margin-top: 20px;
 
 }
 
@@ -215,7 +217,12 @@ table.vamtam-styled td {
 .titoli {
     color: antiquewhite;
     font-size: 1rem;
+
     
+}
+
+  .icon shortcode theme use-hover{
+    color: antiquewhite;
 }
 
 
@@ -307,11 +314,6 @@ footer {
 
 }
 
-.wa {
-    padding: 0px 10px;
-    height: 25px;
-    width: 27px;
-}
 
 
 

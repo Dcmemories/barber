@@ -13,12 +13,12 @@
     height: 70px;
     font-weight: bold;
     padding: 0 30px;
-    background-color: rgb(255,217,0);
+    background-color: rgb(150,217,0);
     font-size: 16px;
 }
 
 span{
-    color: goldenrod;
+    color: firebrick;
 }
 
 .navbar a{
