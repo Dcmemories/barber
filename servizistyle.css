@@ -1,4 +1,4 @@
-* {
+*{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -61,8 +61,7 @@ span {
     margin-top: -250px;
     color: snow;
     font-size: 25px;
-    
-    z-index: 4;
+     z-index: 4;
     
 }
 
@@ -74,7 +73,8 @@ span {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: url(img/sinval-carvalho-WbEibGKHBMY-unsplash.jpg) no-repeat center center/cover;
+    background: url(img/sinval-carvalho-WbEibGKHBMY-unsplash.jpg) no-repeat;
+    background-size: contain;
 
 
 }
