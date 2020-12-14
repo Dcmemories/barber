@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -17,17 +17,19 @@ html {
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: -1; /*con queste due classi sono riuscito a far funzionare il background-attachmente e far vedere la ia foto di sfondo poichè con ios non funzionava adesso invec va*/
+    z-index: -1;
+    /*con queste due classi sono riuscito a far funzionare il background-attachmente e far vedere la ia foto di sfondo poichè con ios non funzionava adesso invec va*/
 }
 
 
 .bgcover {
     background-position: center center;
-      background-image: url(./img/IMG-0946.jpg);
-      background-size: cover;
+    background-image:url("https://i.ibb.co/SsNPwjk/IMG-0946.jpg");
+    background-size: cover;
     width: 100%;
-    height: 100%; /*uguale a FIXED*/
-  }
+    height: 100%;
+    /*uguale a FIXED*/
+}
 
 #container {
     background-color: rgba(80, 80, 80, 0.6);
@@ -120,17 +122,17 @@ p {
 
 }
 
-@media screen and (max-width: 751px){
-    main{
+@media screen and (max-width: 751px) {
+    main {
         height: 650px;
     }
 }
 
 
-@media screen and (max-width: 518px){
-    main{
+@media screen and (max-width: 518px) {
+    main {
         height: 700px;
-        
+
     }
 }
 
@@ -138,27 +140,27 @@ p {
 @media screen and (max-width: 420px) {
     /*con media questa proprietà diciamo che se si trova una larghezza piccola di 420px alla classe map gli diamo quel margine , perchè il mio background non va sotto non e attaccato quindi bisogna attaccare il background allo scorrere della pagina  */
 
-  
+
 
     .map {
         margin-top: 280px;
-}
-    
-    
-    body{
-         background-position: center;
-        
+    }
+
+
+    body {
+        background-position: center;
+
     }
 }
 
 
 
 
-@media screen and (max-width: 320px){
-     body{
-         width: 335px;
+@media screen and (max-width: 320px) {
+    body {
+        width: 335px;
     }
-    
+
 }
 
 
@@ -218,10 +220,10 @@ table.vamtam-styled td {
     color: antiquewhite;
     font-size: 1rem;
 
-    
+
 }
 
-  .icon shortcode theme use-hover{
+.icon shortcode theme use-hover {
     color: antiquewhite;
 }
 
@@ -249,7 +251,7 @@ table.vamtam-styled td {
 #prezzi:hover {
     font-family: 'Knewave', cursive;
     color: whitesmoke;
-    border: 1px solid blue ;
+    border: 1px solid blue;
     background-color: gray;
 
 
@@ -265,7 +267,7 @@ table.vamtam-styled td {
     margin-right: auto;
     border-radius: 15px;
     text-align: center;
-    
+
 
 
 }
@@ -273,12 +275,13 @@ table.vamtam-styled td {
 .team1 {
     display: flex;
     justify-content: center;
-    align-items: flex-start; /*cpn questa funzione sono riuscito a ridimensionare la foto*/
-    
-    
+    align-items: flex-start;
+    /*cpn questa funzione sono riuscito a ridimensionare la foto*/
+
+
 }
- 
-.team2{
+
+.team2 {
     background-color: rgba(140, 125, 78, 0.6);
     padding: 5px 10px 0px 10px;
     border: 5px solid black;
@@ -289,7 +292,9 @@ table.vamtam-styled td {
 
 
 
-
+h3{
+    padding: 10px 0 20px 0;
+}
 
 
 footer {
