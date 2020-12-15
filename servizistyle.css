@@ -27,7 +27,7 @@ html {
     height: 70px;
     font-weight: bold;
     padding: 0 30px;
-    background-color: rgb(150, 217, 0);
+    background-color: gray;
     font-size: 16px;
 }
 
@@ -78,6 +78,7 @@ span {
     height: 100vh;
     background: url(img/sinval-carvalho-WbEibGKHBMY-unsplash.jpg) no-repeat;
     background-size: contain;
+   max-width: 100%;
 
 
 }
@@ -94,14 +95,14 @@ span {
 }
 
 
-@media(max-width:330px) {
+@media(max-width:390px) {
     .navbar {
         width: px;
     }
 
-    .centro {
-        width: px;
-
+    .centro h1 {
+    position: relative;
+    margin-top: -500px;
     }
 }
 
