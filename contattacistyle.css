@@ -16,7 +16,7 @@ html {
     /*abbiamo ridimensionato il nostro sito web solo che con 240px andando a stringere lo schermo scompareil nostro sito quindi invece di 240px inseriamoauto cosi si adatta ad ogni schermo*/
     max-width: 800px;
     /* una dimensione massima perchè non voglio che prende tutta la pagina*/
-    
+    padding: 0 30px;
 
 }
 
@@ -24,14 +24,14 @@ html {
 
 body{
     
-    font-family: sans-serif;
+    font-family:cursive;
    
     
 }
 
 .navbar {
     display: flex;
-    
+     width: 100%;
     justify-content: space-around;
     align-items: center;
     height: 70px;
@@ -69,3 +69,9 @@ span {
 
 }
 
+@media(max-width:780px) {
+    .navbar {
+        flex-direction: column;
+        height: 140px;
+        padding 20px;
+    }
