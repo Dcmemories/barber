@@ -14,7 +14,7 @@
 
 <body>
     <div id="container">
-        
+
         <div class="navbar">
             <h1>
                 <span>LaToppa</span>BarberShop
@@ -26,7 +26,8 @@
 
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="servizi.html">Servizi</a></li><li><a href="#">Prenota</a></li>
+                    <li><a href="servizi.html">Servizi</a></li>
+                    <li><a href="#">Prenota</a></li>
 
 
 
@@ -35,47 +36,134 @@
             </nav>
 
         </div>
-         
-    <br><br>
+
+        <br><br>
 
         <h2>Onofrio Lacitignola</h2>
-         <br><br>
+        <br><br>
 
         <p>Via .......
             <br><br>
             70043 Monopoli
         </p>
-         <br><br>
+        <br><br>
         <p>Numero Telefonico 3409219327</p>
         <br>
         <br>
-        
+
         <form class="" action="mailto:Onnylatoppa@gmail.com" method="post" enctype="text/plain">
-            <table border="1">
+            <table class="colore" border="1">
                 <td>
-               <th> Form di Contatto</th>
+                <th > Form di Contatto</th>
             </table>
-             <br><br><br>
-            <label> Nome : <input type="text" placeholder="tuo nome" required> </label> 
+            <br><br><br>
+            <label> Nome : <input type="text" placeholder="tuo nome" pattern=".{3,15}" required title="3 to 15 characters" required> </label>
             <br>
             <br>
-            <label>E-mail : <input type="e-mail" placeholder="tua e-mail" required> </label>
+            <label>E-mail : <input type="e-mail" placeholder="tua e-mail" pattern=".{5,40}" required title="5 to 40 characters" required> </label>
             <br>
             <br>
-           <!-- <label>In questo lavoro sono :</label>
-            <select>
-               <option>Esperto</option>
-               <option>Buona Esperienza</option>
-               <option>Prime Armi</option>
-                <option>Inesperto</option>
-            </select>
-            <br>
-            <br> Qui ho creato un selettore di comandi per scegliere 
+            <div>
+                <select>
+                    <option disabled selected>Giorno</option>
+                    <!-- sarebbe il placeholder grazie a dis...sel.. facciamo questo -->
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                    <option>13</option>
+                    <option>14</option>
+                    <option>15</option>
+                    <option>16</option>
+                    <option>17</option>
+                    <option>18</option>
+                    <option>19</option>
+                    <option>20</option>
+                    <option>21</option>
+                    <option>22</option>
+                    <option>23</option>
+                    <option>24</option>
+                    <option>25</option>
+                    <option>26</option>
+                    <option>27</option>
+                    <option>28</option>
+                    <option>29</option>
+                    <option>30</option>
+                    <option>31</option>
+                </select>
+            
+                <select>
+                    <option disabled selected>Mese</option>
+                    <!-- sarebbe il placeholder grazie a dis...sel.. facciamo questo -->
+                    <option>Gennaio</option>
+                    <option>Febbraio</option>
+                    <option>Marzo</option>
+                    <option>Aprile</option>
+                    <option>Maggio</option>
+                    <option>Giugno</option>
+                    <option>Luglio</option>
+                    <option>Agosto</option>
+                    <option>Settembre</option>
+                    <option>Ottobre</option>
+                    <option>Novembre</option>
+                    <option>Dicembre</option>
+                </select>
+            
+
+            
+                <select>
+                    <option disabled selected>Anno</option>
+                    <!-- sarebbe il placeholder grazie a dis...sel.. facciamo questo -->
+                    <option>1980</option>
+                    <option>1981</option>
+                    <option>1982</option>
+                    <option>1983</option>
+                    <option>1984</option>
+                    <option>1985</option>
+                    <option>1986</option>
+                    <option>1987</option>
+                    <option>1988</option>
+                    <option>1989</option>
+                    <option>1990</option>
+                    <option>1991</option>
+                    <option>1992</option>
+                    <option>1993</option>
+                    <option>1994</option>
+                    <option>1995</option>
+                    <option>1996</option>
+                    <option>1997</option>
+                    <option>1998</option>
+                    <option>1999</option>
+                    <option>2000</option>
+                    <option>2001</option>
+                    <option>2002</option>
+                    <option>2003</option>
+                    <option>2004</option>
+                    <option>2005</option>
+                    <option>2006</option>
+                    <option>2007</option>
+                    <option>2008</option>
+                    <option>2009</option>
+                    <option>2010</option>
+                </select>
+            </div>
+
+             <br>
+            <br> <!-- Qui ho creato un selettore di comandi per scegliere --><div>
             <label for="maschio">Maschio</label>
             <input name="genere" id="Maschio" type="radio">
             <label for="femmina">Femmina</label> 
             <input name="genere" id="Femmina" type="radio"> 
-             qui sopra abbiamo messo name attribute serve per far capire che sitiamo parlando della stessa categoria e si potra scegliere solo uno , radio serve per fare il pallino -->
+             <!--qui sopra abbiamo messo name attribute serve per far capire che sitiamo parlando della stessa categoria e si potra scegliere solo uno , radio serve per fare il pallino -->
+            </div>
             <br>
             <br>
             <label>Messaggio</label>
@@ -84,13 +172,13 @@
             <br>
             <br>
             <label>Accetti il mio regolamento della Privacy Policy</label>
-            <input type="checkbox" name="" value="">
+            <input type="checkbox" name="" value="" required>
             <br>
-            <input type="submit" name="" value="invia">
+            <input type="submit" name="" value="invia" required>
             <br>
             <br>
             <br>
-            
+
 
 
 
@@ -100,5 +188,7 @@
 
         </form>
     </div>
-        
-</body></html>
+
+</body>
+
+</html>
